@@ -1,0 +1,65 @@
+
+
+#crystal1 {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    }
+
+
+#crystal2 {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#crystal3 {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+     
+#crystal4 {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.gems {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.instructions {
+    text-align: center;
+    font-size: x-large;
+}
+
+.goalNumber {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 75px;
+}
+
+.winLose {
+    text-align: center;
+    bottom: 450px;
+    left: 30px;
+    font-size: large;
+}
+
+.totalScore {
+    text-align: right;
+    right: 30px;
+    font-size: large;
+    margin-bottom: 375px;
+}
+
