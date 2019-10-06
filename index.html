@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-    <title>Crystal Collector</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+        <link type="text/css" href="assets/css/reset.css">
+        <title>Crystal Collector</title>
 </head>
 
-<body>
-                
-	<div class="header">
-		<h1>Crystal Collector</h1>
-	</div>
-	<div class="instructions">
-		<h3>Instructions</h3>
-			
-        <ob style="list-style: none;">
-            <li>You will be given a random number at the start </li>
-            <li>of each round; this is your goal number. Each crystal </li>
-            <li>innitally has a value unknown to you, but clicking on </li>
-            <li> each crystal will show you that crystal's specific value.</li>
-            <li>Your job is to match the goal number exactly using a </li>
-            <li>combonation of the four crystals. The values for the crystals</li>
-            <li>change every time you start a new game. Good luck! </li>
-        </ob>
-        
-	</div>
-	<div class="goalNumber">
-		<h2>Here is your goal number for this round:
-			<span id= "randomNumber"></span>
-		</h2>
-	</div>
+<body background= "assets/backgroundPinkSwirl.jpg">
     
-    <h2>
-        <div class="winLose"></div>
-            Wins:   </h2>
-                <span id= "winsCount"></span>
-                <br />
-            <h2>Losses:   </h2>
-			    <span id= "lossesCount"></span>
-		    </h2>   
-    </h2>    
-        <div class="gems">
-            <input type="image" src="assets/images/crystal1.png" name="crystal1" class="btTxt submit" id="crystal1" />
-            <input type="image" src="assets/images/crystal2.png" name="crystal2" class="btTxt submit" id="crystal2" />
-            <input type="image" src="assets/images/crystal3.png" name="crystal3" class="btTxt submit" id="crystal3" />
-            <input type="image" src="assets/images/crystal4.png" name="crystal4" class="btTxt submit" id="crystal4" />
+	<div class="header">
+        <h1>Crystal Collector</h1>
+    </div>
+    
+	<div class="instructions">
+        <h3>Instructions</h3>
+        
+        <ob style="list-style: none;">
+                <li>You will be given a random number at the start </li>
+                <li>of each round; this is your goal number. Each crystal </li>
+                <li>initially has a value unknown to you, but clicking on </li>
+                <li> each crystal will show you that crystal's specific value.</li>
+                <li>Your job is to match the goal number exactly using a </li>
+                <li>combination of the four crystals. The values for the crystals</li>
+                <li>change every time you start a new game. Good luck! </li>
+            </ob>
+            
         </div>
-        <div class= "totalScore">
-            <h2>Your total score is: </h2>
-            <span id= "playerScore"></span>
+        
+        <div class="goalNumber">
+            <h2>Here is your goal number for this round: </h2>
+			<span style="font-size:xx-large; font-weight:bold" id= "randomNumber"></span>
         </div>
-    </source>
-    </body>
-    </html>
+        
+        <div id="winLose">
+            
+            <div class="win">
+                <h2> Wins:   </h2>
+                <span style="font-size:xx-large; font-weight:bold" id="winsCount"></span>
+            </div>
+            <div class="lose">
+                <h2>Losses:   </h2>
+                <span style="font-size:xx-large; font-weight:bold" id="lossesCount"></span>
+            </div>   
+            
+            <div class= "totalScore">
+                <h2>Your total score is: </h2>
+                <span style="font-size:xx-large; font-weight:bold" id="playerScore"></span>
+            </div>
+    
+    </div>
+
+    <div class="gems">
+        <input type="image" src="assets/images/crystal1.png" name="crystal1" class="btTxt submit" id="crystal1" />
+        <input type="image" src="assets/images/crystal2.png" name="crystal2" class="btTxt submit" id="crystal2" />
+        <input type="image" src="assets/images/crystal3.png" name="crystal3" class="btTxt submit" id="crystal3" />
+        <input type="image" src="assets/images/crystal4.png" name="crystal4" class="btTxt submit" id="crystal4" />
+    </div>
+</source>
+</body>
+</html>
