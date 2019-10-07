@@ -8,7 +8,7 @@ $(document).ready(function () {
   var crystalNum4 = Math.floor(Math.random() * 11) + 1;
 
   function reset() {
-    var randomNum = Math.floor(Math.random() * 102) + 19;
+    randomNum = Math.floor(Math.random() * 102) + 19;
     $("#randomNumber").text(randomNum);
   
     var crystalNum1 = Math.floor(Math.random() * 11) + 1;
@@ -16,8 +16,12 @@ $(document).ready(function () {
     var crystalNum3 = Math.floor(Math.random() * 11) + 1;
     var crystalNum4 = Math.floor(Math.random() * 11) + 1;
 
-    var userTotal = 0;
+    userTotal = 0;
     $("#playerScore").text(userTotal);
+
+    $("#goalNumber").text(randomNum);
+
+
   }
 
   var userTotal = 0;
