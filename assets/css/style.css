@@ -51,6 +51,7 @@
     font-size: x-large;
     color: palevioletred;
     padding-bottom: 25px;
+    text-shadow: 2px 2px 5px mintcream;
 }
 
 .goalNumber {
@@ -96,7 +97,8 @@
 }
 
 #scoreNum {
-    /* background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream); */
+    background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream);
+    border: 5px outset palevioletred;
     padding: 10px;
     margin: 20px;
 }
