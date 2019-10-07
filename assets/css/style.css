@@ -32,6 +32,16 @@
 }
 
 .header {
+    color:  palevioletred;
+    text-shadow: 1px 0px mintcream, 0px 1px  rgb(241, 187, 232),
+    2px 1px mintcream, 1px 2px  rgb(241, 187, 232),
+    3px 2px mintcream, 2px 3px  rgb(241, 187, 232),
+    4px 3px mintcream, 3px 4px  rgb(241, 187, 232),
+    5px 4px mintcream, 4px 5px  rgb(241, 187, 232),
+    6px 5px mintcream, 5px 6px  rgb(241, 187, 232),
+    7px 6px mintcream, 6px 7px  rgb(241, 187, 232),
+    8px 7px mintcream, 7px 8px  rgb(241, 187, 232),
+    8px 8px mintcream;
     text-align: center;
     font-size: xx-large;
 }
@@ -39,30 +49,39 @@
 .instructions {
     text-align: center;
     font-size: x-large;
+    color: palevioletred;
+    padding-bottom: 25px;
 }
 
 .goalNumber {
     text-align: center;
     font-size: large;
     margin-bottom: 25px;
+    color: palevioletred;
 }
 
 .win {
     text-align: center;
     font-size: large;
-    max-width: 50%;
+    max-width: 33%;
     float: left;
-    padding-left: 100px;
-    padding-bottom: 30px;
+    padding: 50px 40px;
+    margin: 20px;
+    border: 5px outset palevioletred;
+    background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream);
+    color: palevioletred;
 }
 
 .lose {
     text-align: center;
     font-size: large;
-    max-width: 50%;
+    max-width: 33%;
     float: right;
-    padding-right: 100px;
-    padding-bottom: 30px;
+    padding: 50px 40px;
+    margin: 20px;
+    border: 5px outset palevioletred;
+    background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream);
+    color: palevioletred;
 }
 
 #winLose {
@@ -73,6 +92,13 @@
     text-align: center;
     font-size: large;
     padding-bottom: 25px;
+    color: palevioletred;
+}
+
+#scoreNum {
+    /* background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream); */
+    padding: 10px;
+    margin: 20px;
 }
 
 .gems {
