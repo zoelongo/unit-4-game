@@ -44,6 +44,7 @@
     8px 8px mintcream;
     text-align: center;
     font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .instructions {
@@ -52,6 +53,7 @@
     color: palevioletred;
     padding-bottom: 25px;
     text-shadow: 2px 2px 5px mintcream;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .goalNumber {
@@ -59,6 +61,7 @@
     font-size: large;
     margin-bottom: 25px;
     color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .win {
@@ -71,6 +74,7 @@
     border: 5px outset palevioletred;
     background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream);
     color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .lose {
@@ -83,6 +87,7 @@
     border: 5px outset palevioletred;
     background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream);
     color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #winLose {
@@ -94,13 +99,15 @@
     font-size: large;
     padding-bottom: 25px;
     color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #scoreNum {
     background: linear-gradient(to bottom right, rgb(241, 187, 232), mintcream);
     border: 5px outset palevioletred;
-    padding: 10px;
+    padding: 5px;
     margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .gems {
